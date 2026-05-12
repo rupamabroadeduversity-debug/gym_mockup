@@ -1,0 +1,16 @@
+{
+  "name": "apexfit-gym-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium gym and fitness center website with React, Vite, Tailwind, Framer Motion, and Express.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "build": "npm run build --prefix client",
+    "preview": "npm run preview --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
